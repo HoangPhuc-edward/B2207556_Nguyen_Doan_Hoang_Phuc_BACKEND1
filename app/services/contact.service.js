@@ -60,7 +60,7 @@ class ContactService {
       { returnDocument: "after" }
     );
 
-    return result; // return result;
+    return result;
   }
 
   async delete(id) {
